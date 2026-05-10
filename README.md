@@ -1,4 +1,4 @@
-Wireshark-network-analysis
+Network Traffic Analysis using Wireshark
 Network traffic analysis project using Wireshark to study protocols, packet behavior, and suspicious activity detection.
 
 Tools Used:
