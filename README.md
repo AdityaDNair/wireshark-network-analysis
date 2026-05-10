@@ -1,6 +1,19 @@
 Wireshark-network-analysis
 Network traffic analysis project using Wireshark to study protocols, packet behavior, and suspicious activity detection.
 
+Tools Used:
+- Wireshark
+- Nmap
+- Windows
+
+Topics Covered:
+- TCP 3-Way Handshake
+- DNS Queries
+- HTTP vs TLS/HTTPS
+- ICMP Analysis
+- SYN Scan Detection
+
+
 1)TCP 3-Way Handshake
 The screenshot below demonstrates the TCP connection establishment process between the client and server over HTTPS (port 443).
 1. SYN – Client initiates connection  
@@ -69,3 +82,8 @@ This filter isolates SYN packets commonly associated with:
 - Network reconnaissance
 SYN scanning is frequently used in vulnerability assessment and penetration testing to identify active services on a target system.
 ![SYN Scan](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/syn-scan.png?raw=true)
+
+Key Learnings:
+- Learned packet filtering techniques
+- Understood encrypted vs plaintext communication
+- Identified suspicious traffic patterns
