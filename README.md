@@ -57,4 +57,4 @@ Excessive ICMP traffic may also indicate:
 - Network scanning
 - Reconnaissance activity
 - ICMP flooding attempts
-![ICMP Analysis]()
+![ICMP Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/icmp.png?raw=true)
