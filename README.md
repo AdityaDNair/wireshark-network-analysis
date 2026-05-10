@@ -1,15 +1,15 @@
 # Network Traffic Analysis using Wireshark 
 Network traffic analysis project using Wireshark to study protocols, packet behavior, and suspicious activity detection.
 
-Introduction - 
+## Introduction 
 This project focuses on analyzing live network traffic using Wireshark to study protocol behavior, encrypted communication, and suspicious traffic patterns.
 
-Tools Used:
+## Tools Used
 - Wireshark
 - Nmap
 - Windows
 
-Topics Covered:
+## Topics Covere
 - TCP 3-Way Handshake
 - DNS Queries
 - HTTP vs TLS/HTTPS
@@ -17,7 +17,7 @@ Topics Covered:
 - SYN Scan Detection
 
 
-1)TCP 3-Way Handshake
+## TCP 3-Way Handshake
 The screenshot below demonstrates the TCP connection establishment process between the client and server over HTTPS (port 443).
 1. SYN – Client initiates connection  
 2. SYN ACK – Server acknowledges the request  
@@ -26,13 +26,13 @@ This process establishes a reliable communication channel before data transfer b
 ![TCP 3-Way Handshake](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/tcphadshake.png?raw=true)
 
 
-TCP Stream Analysis
+## TCP Stream Analysis
 The Follow TCP Stream feature in Wireshark was used to reconstruct the communication session between the client and server.
 Since the traffic was transmitted over HTTPS/TLS, most of the payload data appeared encrypted and unreadable in plaintext format.
 This demonstrates how encrypted communication protects transmitted data from direct inspection.
 ![TCP Stream](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/tcp-follow.png?raw=true)
 
-2)DNS Query Analysis
+## DNS Query Analysis
 The screenshot below shows DNS queries and responses captured using Wireshark.
 DNS (Domain Name System) is responsible for translating human-readable domain names into IP addresses required for network communication.
 The capture demonstrates:
@@ -42,7 +42,7 @@ The capture demonstrates:
 This analysis helps understand how systems locate and communicate with internet services.
 ![DNS Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/dns.png?raw=true)
 
-3)HTTP Traffic Analysis
+## HTTP Traffic Analysis
 The screenshot below demonstrates plaintext HTTP communication captured using Wireshark.
 Unlike HTTPS, HTTP traffic is not encrypted, allowing requests, headers, and metadata to be viewed directly.
 The capture shows a visible HTTP GET request:
@@ -50,7 +50,7 @@ The capture shows a visible HTTP GET request:
 This demonstrates how unencrypted communication can expose sensitive information during transmission.
 ![HTTP Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/HTTP.png?raw=true)
 
-4)HTTPS / TLS Traffic Analysis
+## HTTPS / TLS Traffic Analysis
 The screenshot below demonstrates encrypted HTTPS communication using TLS protocols.
 Unlike HTTP traffic, HTTPS encrypts transmitted data, preventing sensitive information from being directly viewed in plaintext.
 The capture shows:
@@ -60,7 +60,7 @@ The capture shows:
 This demonstrates how TLS secures network communication and protects data confidentiality during transmission.
 ![TLS Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/tls.png?raw=true)
 
-5)ICMP Traffic Analysis
+## ICMP Traffic Analysis
 The screenshot below demonstrates ICMP Echo Request and Echo Reply packets captured during continuous ping activity.
 ICMP (Internet Control Message Protocol) is commonly used for:
 - Network diagnostics
@@ -75,7 +75,7 @@ Excessive ICMP traffic may also indicate:
 - ICMP flooding attempts
 ![ICMP Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/icmp.png?raw=true)
 
-6)SYN Scan Analysis using Nmap
+## SYN Scan Analysis using Nmap
 The screenshot below demonstrates TCP SYN packets generated during an Nmap scan and captured using Wireshark.
 The following Wireshark filter was applied:
 tcp.flags.syn == 1 and tcp.flags.ack == 0
@@ -86,13 +86,20 @@ This filter isolates SYN packets commonly associated with:
 SYN scanning is frequently used in vulnerability assessment and penetration testing to identify active services on a target system.
 ![SYN Scan](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/syn-scan.png?raw=true)
 
-Key Learnings:
+## Key Learnings:
 - Learned packet filtering techniques
 - Understood encrypted vs plaintext communication
 - Identified suspicious traffic patterns
 
+## Conclusion
 
-Repository Structure
+This project provided practical exposure to network traffic analysis using Wireshark. Various network protocols including TCP, DNS, HTTP, HTTPS/TLS, and ICMP were analyzed to understand how systems communicate across networks.
+
+The project also involved identifying suspicious traffic patterns such as repeated ICMP requests and SYN scan activity generated using Nmap. Through packet inspection and protocol analysis, important cybersecurity concepts related to network monitoring, encrypted communication, and basic threat detection were explored.
+
+Overall, this project strengthened foundational knowledge in networking and cybersecurity while providing hands-on experience with real-world traffic analysis techniques used in SOC and network security environments.
+
+## Repository Structure
 wireshark-network-analysis/
 |--captures/
 |-- screenshots/
