@@ -32,4 +32,4 @@ Unlike HTTPS, HTTP traffic is not encrypted, allowing requests, headers, and met
 The capture shows a visible HTTP GET request:
 - GET /generate_204 HTTP/1.1
 This demonstrates how unencrypted communication can expose sensitive information during transmission.
-![HTTP Analysis]()
+![HTTP Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/HTTP.png?raw=true)
