@@ -25,3 +25,11 @@ The capture demonstrates:
 - Resolution of domains such as cloudfront.net and googleusercontent.com
 This analysis helps understand how systems locate and communicate with internet services.
 ![DNS Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/dns.png?raw=true)
+
+3)HTTP Traffic Analysis
+The screenshot below demonstrates plaintext HTTP communication captured using Wireshark.
+Unlike HTTPS, HTTP traffic is not encrypted, allowing requests, headers, and metadata to be viewed directly.
+The capture shows a visible HTTP GET request:
+- GET /generate_204 HTTP/1.1
+This demonstrates how unencrypted communication can expose sensitive information during transmission.
+![HTTP Analysis]()
