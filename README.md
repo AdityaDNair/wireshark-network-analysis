@@ -11,3 +11,5 @@ The screenshot below demonstrates the TCP connection establishment process betwe
 
 This process establishes a reliable communication channel before data transfer begins.
 
+![image alt](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/tcphadshake.png?raw=true)
+
