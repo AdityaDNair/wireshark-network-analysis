@@ -1,6 +1,9 @@
 Network Traffic Analysis using Wireshark - 
 Network traffic analysis project using Wireshark to study protocols, packet behavior, and suspicious activity detection.
 
+Introduction 
+This project focuses on analyzing live network traffic using Wireshark to study protocol behavior, encrypted communication, and suspicious traffic patterns.
+
 Tools Used:
 - Wireshark
 - Nmap
