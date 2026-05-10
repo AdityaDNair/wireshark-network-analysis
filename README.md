@@ -42,4 +42,4 @@ The capture shows:
 - Change Cipher Spec messages
 - Encrypted Application Data packets
 This demonstrates how TLS secures network communication and protects data confidentiality during transmission.
-![TLS Analysis]()
+![TLS Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/tls.png?raw=true)
