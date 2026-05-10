@@ -58,3 +58,14 @@ Excessive ICMP traffic may also indicate:
 - Reconnaissance activity
 - ICMP flooding attempts
 ![ICMP Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/icmp.png?raw=true)
+
+6)SYN Scan Analysis using Nmap
+The screenshot below demonstrates TCP SYN packets generated during an Nmap scan and captured using Wireshark.
+The following Wireshark filter was applied:
+tcp.flags.syn == 1 and tcp.flags.ack == 0
+This filter isolates SYN packets commonly associated with:
+- Port scanning
+- Service discovery
+- Network reconnaissance
+SYN scanning is frequently used in vulnerability assessment and penetration testing to identify active services on a target system.
+![SYN Scan]()
