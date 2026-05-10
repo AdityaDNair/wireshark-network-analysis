@@ -68,4 +68,4 @@ This filter isolates SYN packets commonly associated with:
 - Service discovery
 - Network reconnaissance
 SYN scanning is frequently used in vulnerability assessment and penetration testing to identify active services on a target system.
-![SYN Scan]()
+![SYN Scan](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/syn-scan.png?raw=true)
