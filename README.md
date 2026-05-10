@@ -43,3 +43,18 @@ The capture shows:
 - Encrypted Application Data packets
 This demonstrates how TLS secures network communication and protects data confidentiality during transmission.
 ![TLS Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/tls.png?raw=true)
+
+5)ICMP Traffic Analysis
+The screenshot below demonstrates ICMP Echo Request and Echo Reply packets captured during continuous ping activity.
+ICMP (Internet Control Message Protocol) is commonly used for:
+- Network diagnostics
+- Connectivity testing
+- Reachability verification
+The capture shows:
+- Repeated Echo Request packets sent to the destination
+- Corresponding Echo Reply packets returned by the server
+Excessive ICMP traffic may also indicate:
+- Network scanning
+- Reconnaissance activity
+- ICMP flooding attempts
+![ICMP Analysis]()
