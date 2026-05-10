@@ -24,4 +24,4 @@ The capture demonstrates:
 - DNS responses returned by the server
 - Resolution of domains such as cloudfront.net and googleusercontent.com
 This analysis helps understand how systems locate and communicate with internet services.
-![DNS Analysis](screenshots/dns-query.png)
+![DNS Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/dns.png?raw=true)
