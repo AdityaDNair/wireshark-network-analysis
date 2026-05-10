@@ -33,3 +33,13 @@ The capture shows a visible HTTP GET request:
 - GET /generate_204 HTTP/1.1
 This demonstrates how unencrypted communication can expose sensitive information during transmission.
 ![HTTP Analysis](https://github.com/AdityaDNair/wireshark-network-analysis/blob/main/screenshots/HTTP.png?raw=true)
+
+4)HTTPS / TLS Traffic Analysis
+The screenshot below demonstrates encrypted HTTPS communication using TLS protocols.
+Unlike HTTP traffic, HTTPS encrypts transmitted data, preventing sensitive information from being directly viewed in plaintext.
+The capture shows:
+- TLSv1.2 and TLSv1.3 communication
+- Change Cipher Spec messages
+- Encrypted Application Data packets
+This demonstrates how TLS secures network communication and protects data confidentiality during transmission.
+![TLS Analysis]()
