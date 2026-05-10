@@ -90,3 +90,12 @@ Key Learnings:
 - Learned packet filtering techniques
 - Understood encrypted vs plaintext communication
 - Identified suspicious traffic patterns
+
+
+Repository Structure
+wireshark-network-analysis/
+|--captures/
+|-- screenshots/
+|-- report/
+|-- README.md
+
